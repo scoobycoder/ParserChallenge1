@@ -1,7 +1,7 @@
 ParserChallenge1
 ================
 
-__Skill Level:__ Beginner
+__Skill Level:__ Beginner  
 __Time Limit:__ 20-30 minutes
 
 ##Installation
