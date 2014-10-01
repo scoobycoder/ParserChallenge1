@@ -1,11 +1,17 @@
 ParserChallenge1
 ================
 
-Does the word exist in the string?
+__Skill Level:__ Beginner
+__Time Limit:__ 20-30 minutes
 
-Write a method `word_in_string?` that will detect if a word is in a string. The details are in the documentation below.
+##Installation
+This challenge utilizes RSpec. You may have to install bundler.
+- `gem install bundler`
+- run `bundle install` when in the projects main folder "ParserChallenge1"
+- Run the tests with `bundle exec rspec word_in_string_spec.rb -f d`
 
-Run the tests with `bundle exec rspec word_in_string_spec.rb -f d`
+##Instructions
+Does the word exist in the string? Write a method `word_in_string?` that will detect if a word is in a string. The details are in the documentation below.  
 
 The output of rspec is also the documentation:
 
@@ -31,3 +37,7 @@ word_in_string?
 Finished in 0.00269 seconds (files took 0.47919 seconds to load)
 13 examples, 0 failures
 ```
+
+##Resources
+- [Rubular - a regular expression editor](http://rubular.com/)
+- [RegexOne - learn regular expressions](http://regexone.com/)
