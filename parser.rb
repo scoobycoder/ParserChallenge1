@@ -1,3 +1,4 @@
 def word_in_string?(word, string)
-  # implement with your code here
+  words = string.downcase.split(/[ _-]/)
+  words.include?(word.downcase) ? :yes : :no
 end
