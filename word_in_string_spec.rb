@@ -15,6 +15,7 @@ describe "word_in_string?" do
 
   context "should detect whole words; e.g.:" do
     [
+      ['book', 'book'],
       ['book', 'book_shelf'],
       ['book', 'note_book_shelf'],
       ['book', 'note_book'],
